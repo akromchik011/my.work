@@ -1,0 +1,131 @@
+
+.img1{
+    transition: 0.4s;
+    overflow: hidden;
+    height: 150px;
+    max-width: 200px;
+    width: 100%;
+}
+.card-word{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    margin-top: 20px;
+    font-family:  cursive;
+}
+.main-card{
+    max-width: 1200px;
+    width: 100%;
+    max-height: 1700px;
+    height: 100%;
+    margin-top: 50px;
+    background-color: red;
+    display: grid;
+   
+}
+.k{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.k p{
+    font-family:  cursive;
+    font-weight: 600;
+}
+.desert p{
+    font-family:  cursive;
+    font-weight: 600;
+}
+.drinks p{
+    font-family:  cursive;
+    font-weight: 600;
+}
+.desert{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family:  cursive;
+}
+.drinks{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family:  cursive;
+}
+.l{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.drinkss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    font-family:  cursive;
+}
+.desserts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    font-family:  cursive;
+}
+ .btns{
+    max-width: 150px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    font-family:  cursive;
+    font-weight: 600;
+}
+.btns:hover{
+    transform: scale(1.2);
+}
+.k div{
+    overflow: hidden;
+    transition: 0.4s;
+    
+}
+.k div:hover{
+    transform: scale(1.1);
+}
+.k img:hover{
+    transform: scale(1.1);
+}
+
+
+
+.desert div{
+    overflow: hidden;
+    transition: 0.4s;
+}
+.desert div:hover{
+    transform: scale(1.1);
+}
+.desert img:hover{
+transform: scale(1.1);
+}
+.drinks div{
+    overflow: hidden;
+    transition: 0.4s;
+}.drinks div:hover{
+    transform: scale(1.1);
+}.drinks img:hover{
+transform: scale(1.1);
+}
+
